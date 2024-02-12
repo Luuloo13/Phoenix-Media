@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(0, 0, 0, 0.7)),url(img/bernd-dittrich-KWnzfnJImww-unsplash.jpg);
+    background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(0, 0, 0, 0.7)),url(img/2151073786.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -14,7 +14,7 @@
 }
 
 body{
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(16, 13, 10);
 }
 
 nav{
@@ -59,7 +59,7 @@ nav .fa{
 
 .text-box{
     width: 90%;
-    color: #fff;
+    color: #dfdfdf;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -86,6 +86,7 @@ nav .fa{
     position: relative;
     cursor: pointer;
     transition: 1s;
+    border-radius: 25px;
 }
 
 .hero-btn:hover{
@@ -139,10 +140,14 @@ nav .fa{
 h1{
     font-size: 40px;
     font-weight: 600;
+    color: #fff;
 
 }
+.tilbyd-p-overskrift{
+    color: #fff;
+}
 p{
-    color: #777;
+    color: #0e0e0e;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
@@ -156,8 +161,8 @@ p{
   
 .produkt-col{
     flex-basis: 31%;
-    background: #fff3f3;
-    border-radius: 10px;
+    background: #f7eee3;
+    border-radius: 25px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
@@ -168,9 +173,10 @@ h3{
     font-weight: 600;
     margin: 10px 0;
     font-size: 20px;
+    color: black;
 }
 .produkt-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0px rgba(255, 165, 97, 0.55);
 }
 
 @media (max-width:700px){
