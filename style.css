@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(3, 3, 3, 0.409),rgba(0, 0, 0, 0.299)),url(img/2151073786.jpg);
+    background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(0, 0, 0, 0.7)),url(img/2151073786.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -18,8 +18,8 @@ body{
 }
 
 .logo4{
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 70px;
+    max-height: 70px;
     padding-left: 0px;
 }
 
@@ -28,12 +28,9 @@ nav{
     padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(64, 36, 12, 0.826); 
+    background-color: rgba(64, 36, 12, 0.477); 
     position: fixed;
-    top: 0; left: 0; z-index: 999; height: 30px; 
-    border-radius: 20px;
-    
-    
+    top: 0; left: 0; z-index: 999; width: 95%; height: 50px; 
 
 }
 
@@ -435,6 +432,8 @@ h3{
 
 
 /*------- Kontakt os side ------------*/
+
+
 
 .location{
     width: 80%;
