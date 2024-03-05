@@ -15,7 +15,7 @@
 }
 
 body{
-    background-color: rgb(27, 17, 9);;
+    background-color: rgb(27, 17, 9);
 }
 
 .logo4{
@@ -96,7 +96,7 @@ nav .fa{
     border: 1px solid rgb(255, 115, 0);
     padding: 12px 34px;
     font-size: 16px;
-    background: linear-gradient(rgba(188, 108, 37, 0.295),rgb(188, 138, 37, 0.295));
+    background: linear-gradient(rgba(188, 107, 37, 0.575),rgba(188, 128, 37, 0.557));
     position: relative;
     cursor: pointer;
     transition: 1s;
@@ -140,6 +140,9 @@ nav .fa{
     }
     .text-box h1{
         font-size: 50px;
+    }
+    .hero-btn{
+        background-color: rgb(255, 115, 0);
     }
    
 
@@ -219,6 +222,7 @@ h3{
     h1{
         font-size: 35px;
     }
+   
 } 
 
 /*---------------- Om os forsiden ----------------*/
@@ -228,16 +232,22 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    border-style: solid;
+    border-color: rgb(255, 115, 0);
+    border-width: thick;
+    
 }
 .om-os-col{
     flex-basis: 32%;
-    border-radius: 10px;
+    border-radius: 25px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+  
 }
 .om-os-col img{
     width: 100%;
+    
 }
 
 .layer{
@@ -250,23 +260,25 @@ h3{
     transition: .5s;
 }
 .layer:hover{
-    background: rgba(197, 100, 3, 0.7);
+    background: rgba(255, 115, 0, 0.82);
 }
 .layer h3{
     width: 100%;
     font-weight: 500;
     color: #fff;
-    font-size: 20px;
-    bottom: 0;
+    font-size: 18px;
+    bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
-    position: absolute;
-    opacity: 0;
+    position:absolute;
+    opacity: 1;
     transition: .5s;
+    background:linear-gradient(rgba(255, 115, 0, 0.82), rgba(255, 115, 0, 0.82));
 }
 .layer:hover h3{
     bottom: 49%;
     opacity: 1;
+    background: rgba(255, 115, 0, 0.82);
 }
 
 /*-------------- Tidligere Projekter ----------------*/
@@ -275,25 +287,52 @@ h3{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
+}
+.projekter p{
+    color: #fff;
+}
+.projekter h3{
+    color: #fff;
+    
 }
 .projekter-col{
     flex-basis: 31%;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 5%;
     text-align: left;
+    border-style: solid;
+    border-color: rgba(255, 115, 0, 0.82);
+    border-width: thick;
+    text-align: center;
+    background-color: #ffe4cd;
+
 }
 .projekter-col img{
-    width: 100%;
+    
+     width: 100%;
     border-radius: 10px;
+    height: 50%;
+    object-fit:cover;
+    
 }
+.projekter-col h3{
+    font-size: 20px;
+    
+
+}
+
 .projekter-col p{
     padding: 0;
+    color: #0e0e0e;
 }
 .projekter-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
-    text-align: left;
+    text-align: center;
+    color: #0e0e0e;
+    font-weight: 600;
+    
 }
 
 /*---------------- Samarbejdspartnere ------------------*/
@@ -337,6 +376,10 @@ h3{
         margin-left: 0px;
         margin-right: 15px;
     }
+    .om-os{
+        border-color: transparent;
+    }
+    
 }
 
 /*-------- Call To Action ----------*/
