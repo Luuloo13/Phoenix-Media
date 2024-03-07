@@ -232,9 +232,7 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    border-style: solid;
-    border-color: rgb(255, 115, 0);
-    border-width: thick;
+    
     
 }
 .om-os-col{
@@ -325,6 +323,7 @@ h3{
 .projekter-col p{
     padding: 0;
     color: #0e0e0e;
+    margin-bottom:  10px;
 }
 .projekter-col h3{
     margin-top: 16px;
@@ -342,17 +341,34 @@ h3{
     margin: auto;
     padding-top: 100px;
     text-align: center;
+    
 }
-
+.sammen p{
+    color: #f0f0f0;
+    padding-bottom: 40px;
+}
+.trust-pilot{
+    color: rgba(255, 115, 0, 0.82);
+}
+.tp-col1{
+    text-decoration: none;
+}
+.tp-col2{
+    text-decoration: none;
+}
 .sammen-col{
     flex-basis: 44%;
-    border-radius: 10px;
-    margin-bottom: 5%;
+    border-radius: 15px;
+    margin-bottom: 10%;
     text-align: left;
-    background: #fff3f3;
+    background: #ffe4cd;
     padding: 25px;
     cursor: pointer;
     display: flex;
+    justify-content: space-between 10px;
+    border-style: solid;
+    border-width: thick;
+    border-color: rgba(255, 115, 0, 0.82);
 }
 .sammen-col img{
     height: 40px;
@@ -362,6 +378,8 @@ h3{
 }
 .sammen-col p{
     padding: 0;
+    color: #0e0e0e;
+    font-size: 400;
 }
 .sammen-col h3{
     margin-top: 15px;
@@ -388,17 +406,22 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.452)),url(img/cytonn-photography-n95VMLxqM2I-unsplash-hand-shake.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
     padding: 100px 0;
+    border-style: solid;
+    border-width: thick;
+    border-color: rgba(255, 115, 0, 0.82);
+    
 }
 .cta h1{
     color: #fff;
     margin-bottom: 40px; 
     padding: 0; 
+    font-size: 35px;
 }
 
 @media(max-width:700px){
@@ -412,7 +435,12 @@ h3{
 .footer{
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 25px 0;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/2151073786.jpg);
+    border-top: solid thick;
+    border-color: rgba(255, 115, 0, 0.82);
+    
+    
     
 }
 .footer h4{
@@ -420,20 +448,24 @@ h3{
     margin-top: 20px;
     font-weight: 600;
     font-size: 15px;
+    color: #f0f0f0;
 }
+
 
 .pfooter{
     font-size: 13px;
+    color: #f0f0f0;
 }
 
-.icons .fa{
-    color: #e09b13;
+.icons1 .fa{
+    color: rgba(255, 115, 0, 0.82);
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+    font-size: 20px;
 }
 .fa-heart-o{
-    color: #f44336;
+    color: #fff
 }
 
 
